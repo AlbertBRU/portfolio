@@ -1,12 +1,45 @@
+import { useState, useEffect } from 'react';
+import Header from '../Header';
+
 import './style.scss';
+import './scroll.scss';
 
 export default function Home() {
+
+    const [age, setAge] = useState(31);
+
+    useEffect(() => {
+        const currentDate = new Date();
+        const birthDate = new Date('1992-08-07');
+        
+        const differenceInMilliseconds = currentDate - birthDate;
+
+        const ageInYears = Math.floor(differenceInMilliseconds / (365.25 * 24 * 60 * 60 * 1000));
+
+        setAge(ageInYears);
+    }, [])
+    
     return (
         <div className="home">
-            <div className='home__title'>Albert BRU</div>
-            <div className='home__subtitle'>portfolio - full stack developer</div>
+            <Header />
             <div className='home__content'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum blanditiis, alias eaque possimus, reprehenderit, esse facilis suscipit laborum sunt eos sed nostrum iure qui veniam nesciunt est corporis porro labore fuga asperiores quo sit et! Adipisci molestias molestiae voluptate temporibus quia culpa deserunt ipsam odit reprehenderit illo tenetur ipsa eos accusamus impedit ab numquam doloremque excepturi a eius, voluptatem amet nesciunt repellendus nobis praesentium. Aperiam minima veniam est vel minus. Illum voluptas saepe et quae nulla a hic minus quasi repellat delectus temporibus dignissimos fuga quam, asperiores odit in possimus laboriosam autem blanditiis excepturi nisi, minima consectetur animi! Inventore sunt minima unde velit saepe nisi iure dignissimos omnis, aut temporibus vel nostrum dolor sequi doloremque esse sed quaerat nam qui magni aperiam enim quo recusandae. Adipisci enim, amet, voluptas laudantium maiores quasi voluptate harum magnam unde veniam iusto ipsum. A modi atque maxime. Quas mollitia minus quod. Deleniti, commodi sint. Obcaecati quo deleniti consequuntur. Maiores, nam iste in quos ad culpa. Deleniti quaerat, id magnam corrupti in aut ipsa ab eum voluptatem numquam sed reiciendis optio, voluptas voluptates molestias. Dignissimos!
+                <p>
+                    Développeur web junior de {age} ans, j'ai entrepris une aventure passionnante dans le monde du développement web il y a deux ans. À l'origine, j'ai arpenté les méandres du marketing digital, cherchant constamment des moyens créatifs pour raconter des histoires et créer des connexions en ligne.
+                    <br />
+                    Ma route m'a conduit à une reconversion qui a changé ma perspective de manière significative. Aujourd'hui, je suis plongé dans le code, transformant des idées en lignes de commande et des projets numériques en réalité interactive. C'est incroyable de voir comment deux mondes en apparence différents peuvent se compléter si parfaitement.
+                </p>
+                <p>
+                    Ce portfolio est mon petit coin du web où je partage mes créations, mes apprentissages et mes moments de triomphe (et parfois de désespoir, soyons honnêtes !).
+                    <br />
+                    N'hésitez pas à me laisser un petit message si vous avez des questions, des idées à partager ou simplement pour discuter des dernières tendances en matière de développement web. Merci de faire partie de cette aventure avec moi !
+                </p>
+                <p>
+                    À bientôt sur le code et au-delà !  🚀
+                </p>
+            </div>
+            <div className='home__footer'>
+                <div className='mouse' />
+                <p>Voir plus</p>
             </div>
         </div>
     );
