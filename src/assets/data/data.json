@@ -1,0 +1,20 @@
+{
+  "realisations": [
+    {
+      "title": "Realisation 1",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod fugit ratione, illo maiores ea culpa porro saepe? Amet facere doloremque repellat ad dolor facilis maxime sequi esse ullam eos fugiat corporis eum similique tenetur alias quae dolorem quia, accusamus nihil? Eveniet dolorem unde voluptates voluptatum similique, quo saepe excepturi cumque aperiam? Necessitatibus, amet incidunt sunt neque quis perspiciatis aut rerum! 1",
+      "tags": ["react", "javascript"],
+      "image": "src/assets/images/real1.png"
+    },
+    {
+      "title": "Realisation 2",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod fugit ratione, illo maiores ea culpa porro saepe? Amet facere doloremque repellat ad dolor facilis maxime sequi esse ullam eos fugiat corporis eum similique tenetur alias quae dolorem quia, accusamus nihil? Eveniet dolorem unde voluptates voluptatum similique, quo saepe excepturi cumque aperiam? Necessitatibus, amet incidunt sunt neque quis perspiciatis aut rerum! 2",
+      "tags": ["php", "docker"]
+    },
+    {
+      "title": "Realisation 3",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod fugit ratione, illo maiores ea culpa porro saepe? Amet facere doloremque repellat ad dolor facilis maxime sequi esse ullam eos fugiat corporis eum similique tenetur alias quae dolorem quia, accusamus nihil? Eveniet dolorem unde voluptates voluptatum similique, quo saepe excepturi cumque aperiam? Necessitatibus, amet incidunt sunt neque quis perspiciatis aut rerum! 3",
+      "tags": ["javascript"]
+    }
+  ]
+}

@@ -5,7 +5,7 @@ export default function Header() {
         <div className="header">
             <div className="header__title">
                 <div className='header__title-prefix'>
-                    Hey! Moi c'est
+                    Hey! 👋 Moi c'est
                 </div>
                 <div className='header__title-name'>
                     Albert BRU

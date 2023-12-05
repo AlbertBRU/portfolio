@@ -1,0 +1,82 @@
+.real-element {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+
+    &__left {
+        text-align: start;
+    }
+    &__right {
+        text-align: end;
+    }
+
+    &__content {
+        width: 70%;
+    }
+
+    &__image {
+        position: relative;
+        img {
+            width: 100%;
+            min-width: 400px;
+            max-width: 600px;
+            border: 4px solid rgb(165, 165, 165);
+            border-top: 20px solid rgb(165, 165, 165);
+            border-radius: 10px;
+            transition: max-width 0.2s ease-in-out;
+        }
+        &:hover {
+            img {
+               max-width: 900px;
+               transition: max-width 0.2s ease-in-out;
+            }
+        }
+
+        &__circle-red, &__circle-yellow, &__circle-green {
+            position: absolute;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+        }
+        &__circle-red {
+            left: 10px;
+            background-color: rgba(218, 14, 14, 0.5);
+        }
+        &__circle-yellow {
+            left: 30px;
+            background-color: rgb(255, 255, 0);
+        }
+        &__circle-green {
+            left: 50px;
+            background-color: rgba(96, 218, 14, 0.5);
+        }
+    }
+
+    .techno-tag {
+        border: 2px solid;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .techno-tag--react {
+        border-color: #3f8ba0;
+        background-color: #61dafb;
+    }
+
+    .techno-tag--javascript {
+        border-color: #968830;
+        background-color: #f0db4f;
+    }
+
+    .techno-tag--php {
+        border-color: #525874;
+        background-color: #8892bf;
+    }
+
+    .techno-tag--css {
+        border-color: #0b153f;
+        background-color: #264de4;
+    }
+}
