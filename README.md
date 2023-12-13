@@ -8,7 +8,7 @@ Bienvenue sur mon portfolio en ligne, développé avec React et Vite. Ce projet 
 2. [Technologies utilisées](#technologies-utilisées)
 3. [Fonctionnalités](#fonctionnalités)
 4. [Installation](#installation)
-5. [Captures d'écran](#captures-d-écran)
+5. [Captures d'écran](#captures-décran)
 6. [Contact](#contact)
 
 ## Aperçu
@@ -53,5 +53,16 @@ Contact : Informations pour me contacter.
 ```http://localhost:5173```
 
 ## Captures d'écran
+![Capture d’écran du 2023-12-13 16-30-59](https://github.com/AlbertBRU/portfolio/assets/88968516/42b1277a-8b3e-475d-87cd-13f636f62521)
 
+## Contact 
 
+N'hésitez pas à me contacter pour toute opportunité ou question.
+
+Email : albertbru01@gmail.com
+
+[Connectons sur LinkedIn!](https://www.linkedin.com/in/albertbrudigital/)
+
+[Mon GitHub](https://github.com/AlbertBRU) (Vous êtes dessus mais sait-on jamais 🤷‍♂️)
+
+Merci de prendre le temps de visiter mon portfolio ! Je suis ouvert aux retours, suggestions et opportunités professionnelles.
