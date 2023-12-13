@@ -1,5 +1,5 @@
 import RealElement from '/src/assets/RealElement';
-import data from '/src/assets/data/data.json';
+import data from '/src/assets/data/realisations.json';
 
 import './style.scss';
 
