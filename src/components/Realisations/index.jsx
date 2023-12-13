@@ -1,4 +1,4 @@
-import RealElement from '/src/assets/RealElement';
+import RealElement from '/src/components/Realisations/RealElement';
 import data from '/src/assets/data/realisations.json';
 
 import './style.scss';
