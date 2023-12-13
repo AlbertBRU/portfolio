@@ -1,0 +1,241 @@
+{
+    "basics": {
+        "name": "Albert BRU",
+        "label": "Développeur Web Fullstack",
+        "image": "https://avatars.githubusercontent.com/u/88968516?v=4",
+        "email": "albertbru01@gmail.com",
+        "phone": "06 01 04 28 03",
+        "url": "",
+        "summary": "Originaire du Marketing Digital, je me suis reconverti dans le développement web. Après une alternance réussie chez O’clock (en cours comme au travail), je cherche un emploi en tant que Dev FullStack. Ma Stack favorite du moment, c’est React en front, Laravel en back. Je suis flexible quant au projet et ses technos, et suis un véritable couteau Suisse quand il s’agit de s’adapter.",
+        "location": {
+            "postalCode": "31400",
+            "city": "Toulouse",
+            "countryCode": "FR"
+        },
+        "profiles": [
+            {
+                "url": "https://www.linkedin.com/in/albertbrudigital/",
+                "username": "Albert BRU",
+                "network": "Linkedin"
+            },
+            {
+                "url": "https://www.github.com/albertbru",
+                "username": "Albert BRU",
+                "network": "Github"
+            }
+        ]
+    },
+    "work": [
+        {
+            "summary": "O'clock est une école de développement web en 100% téléprésentiel. J'ai suivi la formation de Développeur Web Fullstack PHP spécialisation React, et ai été embauché par la suite en alternance par l'école pour travailler sur les différents projets du Pôle Dev. Le Pôle Dev travaille sur l'implémentation et le maintien des outils internes à l'école et son fonctionnement. Mon projet fil rouge était la création d'une plateforme à destination des Alumni (anciens élèves) pour aider au suivi des apprenants post-formation. Après avoir choisi les technos et les outils, j'ai pu développer le backend de cette plateforme de A à Z, en autonomie, puis le front, en équipe, en suivant les méthodes agiles. J'ai également pu travailler sur d'autres projets, comme la refonte du test de sélection pour les futurs apprenants, ou la création d'un outil automatisant des messages slack à destination du Pôle Pédagogique.",
+            "website": "https://oclock.io/",
+            "name": "O'Clock - pôle Dev",
+            "location": "Full Remote",
+            "position": "Développeur Fullstack en alternance",
+            "startDate": "2022-03-01",
+            "endDate": "2023-06-30",
+            "highlights": [
+                "React",
+                "Laravel",
+                "Node",
+                "MySQL",
+                "Méthode Agile",
+                "HTML",
+                "SCSS"
+            ]
+        },
+        {
+            "summary": "A la fin de ma première formation Développeur Web et Web Mobile (DWWM) chez O'clock, j'ai développé durant un mois en équipe de 5 un projet de boutique de mugs personnalisés. J'étais Product Owner du projet 'Mug Overflow', et ai développé le Frontend de l'application, avec React, Redux, et SCSS. Nous avons présenté notre projet durant une session de présentation sur Youtube. La vidéo est disponible ici : https://www.youtube.com/watch?v=54LjxWlOihU&t=1437s",
+            "website": "https://oclock.io/",
+            "name": "Ecole O'Clock - projet de fin d'année",
+            "location": "Full Remote",
+            "position": "Développeur Web Front React",
+            "startDate": "2022-01-01",
+            "endDate": "2022-02-01",
+            "highlights": [
+                "React",
+                "Redux",
+                "Gestion de projet",
+                "Product Owner",
+                "HTML",
+                "SCSS"
+            ]
+        },
+        {
+            "summary": "Mobiyo est une entreprise de micro-paiement sur facture opérateur. L'entreprise propose des solutions de paiement pour les entreprises, et des solutions de monétisation pour les éditeurs de contenus. J'ai travaillé en tant que Chargé de Missions Digitales, et ai géré les différents besoins du pôle Marketing. Création de maquettes pour des sites web de clients, études de marché, community management, création de supports graphiques... J'ai également pu travailler sur la refonte du site web de l'entreprise, et sur la configuration et l'enrichissement du CRM Hubspot.",
+            "website": "https://www.mobiyo.com/",
+            "name": "Mobiyo",
+            "location": "Toulouse",
+            "position": "Chargé de Missions Digitales",
+            "startDate": "2019-06-01",
+            "endDate": "2020-12-31",
+            "highlights": [
+                "Etudes de marché",
+                "Community Management",
+                "Maquettes / Graphisme",
+                "UX / UI",
+                "CRM Hubspot"
+            ]
+        },
+        {
+            "summary": "Corep est une entreprise de reprographie et d'impression numérique. J'ai travaillé en tant que Responsable de stratégie Digitale en alternance. J'ai accompagné l'entreprise dans sa transformation digitale, avec la refonte complète du site vitrine de l'entreprise. J'ai également travaillé sur la création de supports de communication, de la stratégie de référencement naturel, de création et d'implémentation de contenu riche.",
+            "website": "https://www.corep.fr/",
+            "name": "Corep (Semaco)",
+            "location": "Toulouse",
+            "position": "Responsable de stratégie Digitale",
+            "startDate": "2015-09-01",
+            "endDate": "2017-09-01",
+            "highlights": [
+                "Stratégie Digitale",
+                "SEO",
+                "Graphisme",
+                "UX / UI",
+                "Wordpress"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "startDate": "2022-03-01",
+            "endDate": "2023-06-30",
+            "area": "Concepteur développeur d’application (CDA)",
+            "studyType": "Titre professionnel de niveau 6 - Obtenu",
+            "institution": "École O'Clock",
+            "url": "https://oclock.io/"
+        },
+        {
+            "startDate": "2021-08-01",
+            "endDate": "2022-02-01",
+            "area": "Développeur Web et Web Mobile (DWWM)",
+            "studyType": "Titre professionnel de niveau 5",
+            "institution": "École O'Clock",
+            "url": "https://oclock.io/"
+        },
+        {
+            "startDate": "2015-09-01",
+            "endDate": "2017-07-01",
+            "area": "Master Expert en Stratégie Digitale",
+            "studyType": "Master 2",
+            "institution": "Digital Campus Toulouse",
+            "url": "https://www.digital-campus.fr/"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Frontend",
+            "level": "Junior",
+            "keywords": [
+                "HTML",
+                "CSS / SCSS",
+                "JavaScript",
+                "React",
+                "Redux",
+                "Vue",
+                "Design System"
+            ]
+        },
+        {
+            "name": "Backend",
+            "level": "Junior",
+            "keywords": [
+                "PHP",
+                "Laravel",
+                "Node",
+                "MySQL",
+                "MongoDB",
+                "API REST"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Français",
+            "fluency": "Langue maternelle"
+        },
+        {
+            "language": "English",
+            "fluency": "Bon niveau (oral et écrit - C2)"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Jeux vidéos",
+            "keywords": [
+                "Co-op",
+                "Competitif",
+                "Challenge"
+            ]
+        },
+        {
+            "name": "Bricolage",
+            "keywords": [
+                "DIY",
+                "Design & conception",
+                "Mobilier sur mesure",
+                "Décoration"
+            ]
+        },
+        {
+            "name": "Lecture",
+            "keywords": [
+                "Fantasy",
+                "Science-fiction",
+                "Policier",
+                "Stephen King",
+                "Bernard Werber"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "",
+            "position": "",
+            "url": "",
+            "startDate": "",
+            "endDate": "",
+            "summary": "",
+            "highlights": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "",
+            "date": "",
+            "awarder": "",
+            "summary": ""
+        }
+    ],
+    "certificates": [
+        {
+            "name": "",
+            "date": "",
+            "issuer": "",
+            "url": ""
+        }
+    ],
+    "publications": [
+        {
+            "name": "",
+            "publisher": "",
+            "releaseDate": "",
+            "url": "",
+            "summary": ""
+        }
+    ],
+    "references": [
+        {
+            "name": "",
+            "reference": ""
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "startDate": "",
+            "endDate": "",
+            "description": "",
+            "highlights": [],
+            "url": ""
+        }
+    ]
+}
