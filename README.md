@@ -1,4 +1,4 @@
-# Portfolio d'Albert BRU, Développeur Web Fullstack Junior
+# Portfolio d'Albert BRU, Développeur Web Fullstack
 
 Bienvenue sur mon portfolio en ligne, développé avec React et Vite. Ce projet a pour objectif de présenter qui je suis, mes compétences en développement web fullstack, ainsi que mes réalisations et mon parcours professionnel. Mon ambition est de trouver des opportunités d'emploi dans le domaine du développement web, en mettant en avant mon parcours et mes compétences.
 
@@ -22,11 +22,11 @@ Contact : Informations pour me contacter.
 
 ## Technologies utilisées
 
-- React - Bibliothèque JavaScript pour la création d'interfaces utilisateur.
-- Vite - Outil de build rapide pour les applications web modernes.
+- **React** - Bibliothèque JavaScript pour la création d'interfaces utilisateur.
+- **Vite** - Outil de build rapide pour les applications web modernes.
 (À venir)
-- React Router - Bibliothèque de routage pour React.
-- Firebase - Plateforme de développement d'applications mobiles et web (pour l'exploitation d'une REST API).
+- **React Router** - Bibliothèque de routage pour React.
+- **Firebase** - Plateforme de développement d'applications mobiles et web (pour l'exploitation d'une REST API).
 
 ## Fonctionnalités
 
