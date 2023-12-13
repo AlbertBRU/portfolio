@@ -39,9 +39,10 @@
                 "Laravel",
                 "Node",
                 "MySQL",
-                "Méthode Agile",
                 "HTML",
-                "SCSS"
+                "SCSS",
+                "React Testing Library",
+                "Méthode Agile"
             ]
         },
         {
