@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import WorkIcon from '/src/assets/images/work.svg?react';
+import SchoolIcon from '/src/assets/images/school.svg?react';
+import DoneIcon from '/src/assets/images/done.svg?react';
 
 import resume from '/src/assets/data/resume.json';
 
@@ -16,9 +19,11 @@ export default function Parcours() {
 
     const [expandedItems, setExpandedItems] = useState([]);
 
+    console.log(resume.work)
+
     return (
         <div className="parcours">
-            <div className='title'>MON PARCOURS</div>
+            <div className='parcours-title'>MON PARCOURS</div>
             <VerticalTimeline>
                 {resume.work.map((work, index) => (
                     <VerticalTimelineElement
@@ -26,24 +31,23 @@ export default function Parcours() {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        // date={'du ' + work.startDate + ' au ' + work.endDate}
                         date={'De ' + formatDate(work.startDate) + ' à ' + formatDate(work.endDate)}
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    // icon={<WorkIcon />}
+                        icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">{work.position}</h3>
                         <h4 className="vertical-timeline-element-subtitle">{work.name}</h4>
                         <p>
                             {expandedItems.includes(index) ? work.summary : `${work.summary.substring(0, 150)}...`}
-                            {!expandedItems.includes(index) && (
-                                <div
-                                    className="read-more"
-                                    onClick={() => setExpandedItems([...expandedItems, index])}
-                                >
-                                    Read More
-                                </div>
-                            )}
                         </p>
+                        {!expandedItems.includes(index) && (
+                            <div
+                                className="read-more"
+                                onClick={() => setExpandedItems([...expandedItems, index])}
+                            >
+                                Cliquer ici pour voir plus
+                            </div>
+                        )}
                         <div key={index} className='work-highlight-container'>
                             {work.highlights.map((highlight, index) => (
                                 <p key={index} className='work-highlight'>
@@ -61,15 +65,18 @@ export default function Parcours() {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
                         date={'De ' + formatDate(education.startDate) + ' à ' + formatDate(education.endDate)}
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                        icon={<SchoolIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">{education.area}</h3>
                         <h4 className="vertical-timeline-element-subtitle">{education.studyType}</h4>
-                        {/* add institution */}
                         <p>{education.institution}</p>
                     </VerticalTimelineElement>
                 ))}
-
-        </VerticalTimeline>
+                <VerticalTimelineElement
+                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                    icon={<DoneIcon />}
+                />
+            </VerticalTimeline>
         </div >
     );
 }

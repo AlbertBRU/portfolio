@@ -3,7 +3,7 @@
     background-color:  #222a30;
     text-align: left;
 
-    .title {
+    .parcours-title {
         font-size: 4rem;
         text-align: center;
     }
@@ -13,8 +13,7 @@
         .work-highlight-container {
             display: flex;
             flex-direction: row;
-            align-items: center;
-            justify-content: center;
+            justify-content: start;
             flex-wrap: wrap;
             .work-highlight {
                 background-color: #2c3e50;
@@ -24,6 +23,13 @@
                 color: #fff;
                 width: fit-content;
             }
+        }
+
+        .read-more {
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: underline;
+            padding: 0.5em;
         }
     }
 
