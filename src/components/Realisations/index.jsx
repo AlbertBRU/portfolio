@@ -4,9 +4,6 @@ import data from '/src/assets/data/realisations.json';
 import './style.scss';
 
 export default function Realisations() {
-
-    console.log(data);
-
     return (
         <div className="realisations">
             <div className='max-width'>

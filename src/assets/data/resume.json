@@ -27,7 +27,7 @@
     },
     "work": [
         {
-            "summary": "O'clock est une école de développement web en 100% téléprésentiel. J'ai suivi la formation de Développeur Web Fullstack PHP spécialisation React, et ai été embauché par la suite en alternance par l'école pour travailler sur les différents projets du Pôle Dev. Le Pôle Dev travaille sur l'implémentation et le maintien des outils internes à l'école et son fonctionnement. Mon projet fil rouge était la création d'une plateforme à destination des Alumni (anciens élèves) pour aider au suivi des apprenants post-formation. Après avoir choisi les technos et les outils, j'ai pu développer le backend de cette plateforme de A à Z, en autonomie, puis le front, en équipe, en suivant les méthodes agiles. J'ai également pu travailler sur d'autres projets, comme la refonte du test de sélection pour les futurs apprenants, ou la création d'un outil automatisant des messages slack à destination du Pôle Pédagogique.",
+            "summary": "O'clock est une école de développement web en 100% téléprésentiel. \nJ'ai suivi la formation de Développeur Web Fullstack PHP spécialisation React, et ai été embauché par la suite en alternance par l'école pour travailler sur les différents projets du Pôle Dev. Le Pôle Dev travaille sur l'implémentation et le maintien des outils internes à l'école et son fonctionnement. Mon projet fil rouge était la création d'une plateforme à destination des Alumni (anciens élèves) pour aider au suivi des apprenants post-formation. Après avoir choisi les technos et les outils, j'ai pu développer le backend de cette plateforme de A à Z, en autonomie, puis le front, en équipe, en suivant les méthodes agiles. J'ai également pu travailler sur d'autres projets, comme la refonte du test de sélection pour les futurs apprenants, ou la création d'un outil automatisant des messages slack à destination du Pôle Pédagogique.",
             "website": "https://oclock.io/",
             "name": "O'Clock - pôle Dev",
             "location": "Full Remote",
@@ -116,7 +116,7 @@
             "startDate": "2015-09-01",
             "endDate": "2017-07-01",
             "area": "Master Expert en Stratégie Digitale",
-            "studyType": "Master 2",
+            "studyType": "Master 2 - Obtenu",
             "institution": "Digital Campus Toulouse",
             "url": "https://www.digital-campus.fr/"
         }
