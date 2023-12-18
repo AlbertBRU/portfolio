@@ -2,6 +2,7 @@ import './style.scss';
 
 export default function RealElement({
     title,
+    subtitle = '',
     content,
     position,
     tags = [],
@@ -11,10 +12,18 @@ export default function RealElement({
         <div className={`real-element ${position === 'left' ? 'real-element__left' : 'real-element__right'}`}>
 
             <div className='real-element__content'>
-                <h3>{title}</h3>
+                <div className='real-element__content__title'>
+                    <p className='real-element__content__title__title'>{title} </p>
+                    {subtitle &&
+                        <>
+                            <span className='real-element__content__title__separator' />
+                            <p className='real-element__content__title__subtitle'>{subtitle}</p>
+                        </>
+                    }
+                </div>
                 <div className='real-element__tags'>
                     {tags.map((tag, index) => (
-                        <span className={`techno-tag techno-tag--${tag}`} key={index}>{tag}</span>
+                        <span className={`techno-tag techno-tag--${tag.toLowerCase()}`} key={index}>{tag}</span>
                     ))}
                 </div>
                 <p>{content}</p>

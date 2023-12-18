@@ -15,6 +15,7 @@ export default function Realisations() {
                         tags={real.tags}
                         src={real.image}
                         title={real.title}
+                        subtitle={real.subtitle}
                         content={real.content}
                     />
                 ))}

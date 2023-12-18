@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import WorkIcon from '/src/assets/images/work.svg?react';
-import GlobeIcon from '/src/assets/images/globe.png';
 import SchoolIcon from '/src/assets/images/school.svg?react';
 import DoneIcon from '/src/assets/images/done.svg?react';
 
