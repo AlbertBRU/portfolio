@@ -23,7 +23,7 @@ export default function Parcours() {
 
     return (
         <div className="parcours">
-            <div className='parcours-title'>Mon parcours</div>
+            <h2 className='parcours-title'>Mon parcours</h2>
             <VerticalTimeline>
                 {resume.work.map((work, index) => (
                     <VerticalTimelineElement

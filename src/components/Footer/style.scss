@@ -19,7 +19,7 @@
     }
 
     &__social {
-        width: 40%;
+        flex-wrap: nowrap;
 
         a {
             color: #f0f8ff;

@@ -1,10 +1,10 @@
 .real-element {
     display: flex;
-    justify-content: space-between;
     margin: 1rem;
 
     &__left {
         text-align: start;
+        flex-direction: row-reverse;
     }
     &__right {
         text-align: end;
@@ -12,24 +12,17 @@
 
     &__content {
         width: 70%;
+        margin: 1rem;
     }
 
     &__image {
         position: relative;
         img {
             width: 100%;
-            min-width: 400px;
             max-width: 600px;
             border: 4px solid rgb(165, 165, 165);
             border-top: 20px solid rgb(165, 165, 165);
             border-radius: 10px;
-            transition: max-width 0.2s ease-in-out;
-        }
-        &:hover {
-            img {
-               max-width: 900px;
-               transition: max-width 0.2s ease-in-out;
-            }
         }
 
         &__circle-red, &__circle-yellow, &__circle-green {
@@ -78,5 +71,20 @@
     .techno-tag--css {
         border-color: #0b153f;
         background-color: #264de4;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .real-element {
+        flex-direction: column;
+        align-items: center;
+        &__content {
+            width: 100%;
+        }
+        &__image {
+            img {
+                max-width: 100%;
+            }
+        }
     }
 }

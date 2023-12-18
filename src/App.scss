@@ -7,3 +7,15 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+h2 {
+  font-size: 4rem;
+  margin-top: 0;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
