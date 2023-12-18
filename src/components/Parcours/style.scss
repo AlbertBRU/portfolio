@@ -6,9 +6,21 @@
     .parcours-title {
         font-size: 4rem;
         text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 1rem;
     }
 
     .vertical-timeline-element-content {
+
+        .vertical-timeline-element-location {
+            font-weight: 400;
+            margin: 0;
+        }
+
+        &-text {
+            padding-bottom: 1rem;
+        }
 
         .work-highlight-container {
             display: flex;

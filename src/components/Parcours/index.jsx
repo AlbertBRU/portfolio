@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import WorkIcon from '/src/assets/images/work.svg?react';
+import GlobeIcon from '/src/assets/images/globe.png';
 import SchoolIcon from '/src/assets/images/school.svg?react';
 import DoneIcon from '/src/assets/images/done.svg?react';
 
@@ -14,16 +15,15 @@ export default function Parcours() {
     const formatDate = (date) => {
         const dateArray = date.split('-');
         const month = new Date(dateArray[0], dateArray[1] - 1, dateArray[2]).toLocaleString('fr-FR', { month: 'long' });
+
         return month.charAt(0).toUpperCase() + month.slice(1) + ' ' + dateArray[0];
     }
 
     const [expandedItems, setExpandedItems] = useState([]);
 
-    console.log(resume.work)
-
     return (
         <div className="parcours">
-            <div className='parcours-title'>MON PARCOURS</div>
+            <div className='parcours-title'>Mon parcours</div>
             <VerticalTimeline>
                 {resume.work.map((work, index) => (
                     <VerticalTimelineElement
@@ -37,8 +37,11 @@ export default function Parcours() {
                     >
                         <h3 className="vertical-timeline-element-title">{work.position}</h3>
                         <h4 className="vertical-timeline-element-subtitle">{work.name}</h4>
-                        <p>
-                            {expandedItems.includes(index) ? work.summary : `${work.summary.substring(0, 150)}...`}
+                        <p className="vertical-timeline-element-location">
+                            {work.location}
+                        </p>
+                        <p className='vertical-timeline-element-content-text'>
+                            {expandedItems.includes(index) ? work.summary : `${work.summary.substring(0, 200)}...`}
                         </p>
                         {!expandedItems.includes(index) && (
                             <div
