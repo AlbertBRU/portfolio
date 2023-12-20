@@ -2,38 +2,43 @@
   "realisations": [
     {
       "title": "Mon portfolio",
-      "subtitle": "Vous êtes dessus",
+      "subtitle": "Un peu meta, non?",
       "content": "Ce projet a été créé avec Vite et React. J'ai voulu faire un site simple, épuré et qui mette en valeur mes réalisations et mon parcours. J'ai également voulu créer un site qui me ressemble, avec un design qui me plait. Le site est responsive et s'adapte à tous les écrans.",
       "tags": ["React", "HTML", "CSS", "Javascript"],
-      "image": "src/assets/images/realisations/portfolio.png"
+      "image": "src/assets/images/realisations/portfolio.png",
+      "gif": "src/assets/images/realisations/gifs/portfolio.gif"
     },
     {
       "title": "TAPALEUR",
       "subtitle": "Mini-projet de l'horloge la moins utile du web",
       "content": "Tapaleur, c'est un mini-jeu inutile, donc indispensable. Les internets regorgent d'horloges, truffées de plus ou moins de fonctionnalités. Tapaleur prends le contre-pied de ces horloges en proposant une horloge qui ne sert à rien, mais qui le fait bien. C'est à votre tour de trouver l'heure, et l'horloge peut uniquement vous dire si vous avez raison ou tort. Ce projet me sert de sandbox pour tester tout ce qui me passe par la tête. De la gestion du thème sombre, à l'implémentation de parallaxe, c'est un site qui n'aura de cesse d'évoluer.",
       "tags": ["HTML", "CSS", "Javascript"],
-      "image": "src/assets/images/realisations/tapaleur.png"
+      "image": "src/assets/images/realisations/tapaleur.png",
+      "gif": "src/assets/images/realisations/gifs/tapaleur.gif"
     },
     {
       "title": "Swann Arts",
       "subtitle": "Portfolio d'un artiste tatoueur",
       "content": "Un ami tatoueur m'a demandé de lui créer un site vitrine pour présenter son travail. Il voulait un site simple, épuré et qui mette en valeur ses créations. Il avait déjà un site sous Wordpress et souhaitais rester sur ce CSM. J'ai donc créé un thème Wordpress sur mesure from scratch pour répondre à ses attentes. J'ai également créé le systeme de lightbox en JS pour afficher les photos de ses créations, car rien ne convenait à mes besoins sur le marché. Le site est responsive et s'adapte à tous les écrans.",
       "tags": ["Wordpress", "PHP", "Javascript", "HTML", "CSS"],
-      "image": "src/assets/images/realisations/swann-arts.png"
+      "image": "src/assets/images/realisations/swann-arts.png",
+      "gif": "src/assets/images/realisations/gifs/swann-arts.gif"
     },
     {
       "title": "Mug Overflow",
       "subtitle": "Projet de fin d'année de formation DWWM",
       "content": "Mug Overflow, c'est le projet que j'ai pu porter auprès d'un groupe de 5 développeurs. Nous avons eu 1 mois pour concevoir et développer un projet à présenter sur YouTube. Comme un clin d'oeil à O'clock, nous avons décidé de créer une boutique de mugs. Nous avons utilisé React pour le front, et Symfony pour le back. J'ai principalement travaillé sur front avec 2 autres apprenants, et sur les assets du site (logo, icones, design des mugs...). Vous pouvez retrouver la vidéo de présentation du projet sur YouTube.",
       "tags": ["React", "HTML", "CSS", "Javascript"],
-      "image": "src/assets/images/realisations/mug-overflow.png"
+      "image": "src/assets/images/realisations/mug-overflow.png",
+      "gif": "src/assets/images/realisations/gifs/mug-overflow.gif"
     },
     {
       "title": "Jenkins the Snake",
       "subtitle": "LEEROOOOOY JENKINS!",
       "content": "Quand j'ai appris à coder, j'ai réalisé un exercice pour apprendre la manipulation du dom avec javascript. Bouger une flèche sur une grille, c'est bien, mais c'est pas très fun. J'ai donc décidé de faire un petit Snake. J'avais tout sous le coude. J'ai donc décidé de me lancer ce challenge SANS TUTORIEL. Je voulais créer de A à Z la logique du snake, avec ce que j'apprenais sur le coup. J'ai également créé les assets du jeu. Ce projet manque de pas mal de finitions, mais j'avais passé un excellent moment à le coder.",
       "tags": ["Javascript", "HTML", "CSS"],
-      "image": "src/assets/images/realisations/jenkins-the-snake.png"
+      "image": "src/assets/images/realisations/jenkins-the-snake.png",
+      "gif": "src/assets/images/realisations/gifs/jenkins-the-snake.gif"
     }
   ]
 }

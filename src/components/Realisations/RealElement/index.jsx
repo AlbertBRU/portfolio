@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './style.scss';
 
 export default function RealElement({
@@ -6,10 +7,15 @@ export default function RealElement({
     content,
     position,
     tags = [],
-    src = 'https://picsum.photos/640/360'
+    image = 'https://picsum.photos/640/360',
+    gif,
 }) {
+    const [hovered, setHovered] = useState(false);
+
     return (
-        <div className={`real-element ${position === 'left' ? 'real-element__left' : 'real-element__right'}`}>
+        <div
+            className={`real-element ${position === 'left' ? 'real-element__left' : 'real-element__right'}`}
+        >
 
             <div className='real-element__content'>
                 <div className='real-element__content__title'>
@@ -33,7 +39,12 @@ export default function RealElement({
                 <span className='real-element__image__circle-red' />
                 <span className='real-element__image__circle-yellow' />
                 <span className='real-element__image__circle-green' />
-                <img src={src} alt="realisation" />
+                <img
+                    src={gif && hovered ? gif : image}
+                    alt="realisation"
+                    onMouseEnter={() => setHovered(true)}
+                    onMouseLeave={() => setHovered(false)}
+                />
             </div>
 
 

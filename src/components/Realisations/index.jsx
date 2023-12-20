@@ -13,7 +13,8 @@ export default function Realisations() {
                         key={index}
                         position={index % 2 === 0 ? 'left' : 'right'}
                         tags={real.tags}
-                        src={real.image}
+                        image={real.image}
+                        gif={real.gif}
                         title={real.title}
                         subtitle={real.subtitle}
                         content={real.content}
