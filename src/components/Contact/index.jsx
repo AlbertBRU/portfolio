@@ -1,3 +1,4 @@
+import ContactCard from './ContactCards/ContactCard';
 import './style.scss';
 
 export default function Contact() {
@@ -17,43 +18,29 @@ export default function Contact() {
             <div className="contact__infos">
                 <p className='contact__infos__text'>Vous pouvez me contacter facilement en utilisant une des options ci-dessous :</p>
 
-                <button className='contact__infos__button'>
-                    <img src="/src/assets/images/download-icon.png" alt="Télécharger mon CV" className='contact__infos__button__image' />
-                    télécharger mon CV format PDF
-                </button>
 
-                <div className="contact__infos__links">
-
-                    <div className="contact__infos__links__container contact__infos__links__linkedin">
-                        <img 
-                            src="/src/assets/images/contact/logo-linkedin-white.svg" 
-                            alt="LinkedIn" 
-                            className='contact__infos__links__image' 
-                            />
-                        <p>linkedin.com/in/albertbrudigital</p>
-                        <p className='contact__infos__links__container__button-text'>Sur LinkedIn</p>
-                    </div>
-
-                    <div className="contact__infos__links__container contact__infos__links__email">
-                        <img 
-                            src="/src/assets/images/contact/email.svg" 
-                            alt="Email" 
-                            className='contact__infos__links__image' 
-                            />
-                        <p>albertbru01@gmail.com</p>
-                        <p className='contact__infos__links__container__button-text'>Par email</p>
-                    </div>
-
-                    <div className="contact__infos__links__container contact__infos__links__github">
-                        <img 
-                            src="/src/assets/images/contact/logo-github-white.svg" 
-                            alt="GitHub" 
-                            className='contact__infos__links__image' 
-                            />
-                        <p>github.com/AlbertBRU</p>
-                        <p className='contact__infos__links__container__button-text'>Sur GitHub</p>
-                    </div>
-
+                <div className="contact__infos__cards">
+                    <img src="/src/assets/images/contact/resume.png" alt="resume albert bru" className='contact__infos__resume' />
+                    <ContactCard
+                        link="linkedin.com/in/albertbrudigital"
+                        buttonContent="Sur LinkedIn"
+                        name="linkedin"
+                    />
+                    <ContactCard
+                        link="albertbru01@gmail.com"
+                        buttonContent="Par email"
+                        name="email"
+                    />
+                    <ContactCard
+                        link="github.com/AlbertBRU"
+                        buttonContent="Sur GitHub"
+                        name="github"
+                    />
+                    <ContactCard
+                        link="06 01 04 28 03"
+                        buttonContent="Appelez-moi !"
+                        name="phone"
+                    />
                 </div>
             </div>
         </div>
