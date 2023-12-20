@@ -4,6 +4,7 @@ import './App.scss'
 import Realisations from './components/Realisations'
 import Footer from './components/Footer'
 import Parcours from './components/Parcours'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Realisations />
       <Parcours />
+      <Contact />
       <Footer />
     </>
   )

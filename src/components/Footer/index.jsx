@@ -13,10 +13,10 @@ export default function Footer() {
             </div>
             <div className="footer__social">
                 <a href="https://www.linkedin.com/in/albertbrudigital/" target="_blank" rel="noreferrer">
-                    <img src="/src/assets/images/logo-linkedin.svg" alt="linkedin" />
+                    <img src="/src/assets/images/contact/logo-linkedin.svg" alt="linkedin" />
                 </a>
                 <a href="https://www.github.com/albertbru" target="_blank" rel="noreferrer">
-                <img src="/src/assets/images/logo-github.svg" alt="linkedin" />
+                <img src="/src/assets/images/contact/logo-github.svg" alt="linkedin" />
                 </a>
             </div>
         </div>
