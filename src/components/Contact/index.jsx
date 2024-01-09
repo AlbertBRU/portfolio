@@ -54,7 +54,7 @@ export default function Contact() {
             </div>
 
             <h3>Ils parlent de moi...</h3>
-            <h4>... En bien (pour la plupart)</h4>
+            <h4>... et en bien (pour la plupart)</h4>
 
             <Carousel
                 className="contact__carousel"
