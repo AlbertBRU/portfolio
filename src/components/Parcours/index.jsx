@@ -21,7 +21,7 @@ export default function Parcours() {
     const [expandedItems, setExpandedItems] = useState([]);
 
     return (
-        <div className="parcours">
+        <div className="parcours" id="parcours">
             <h2 className='parcours-title'>Mon parcours</h2>
             <VerticalTimeline>
                 {resume.work.map((work, index) => (

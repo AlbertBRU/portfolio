@@ -8,11 +8,9 @@
 
 .contact__infos__cards {
     display: flex;
-    // align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    // border:1px solid red;
-    width: 100vw;
+    width: 100%;
 
     .card__linkedin {
         background-color: rgb(14, 65, 106);
@@ -50,15 +48,13 @@
         }
     }
 
-    // &__card:hover {
-    // }
     &__card {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
         height: 10rem;
-        width: 25vw;
+        width: 25%;
         background-color: #42647e;
         color: #f0f8ff;
         padding-bottom: 1rem;

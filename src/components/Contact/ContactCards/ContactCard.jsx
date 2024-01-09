@@ -7,7 +7,20 @@ export default function ContactCard({
 
 }) {
     return (
-        <div className={`contact__infos__cards__card card__${name}`}>
+        <div
+            className={`contact__infos__cards__card card__${name}`}
+            onClick={() => {
+                if (name === 'email') {
+                    window.location.href = `mailto:${link}`;
+                } else if (name === 'phone') {
+                    window.location.href = `tel:${link}`;
+                                       
+                }                
+                else {
+                    window.open(`https://${link}`, '_blank');
+                }
+            }}
+        >
             <img
                 src={`/src/assets/images/contact/logo-${name}.svg`}
                 alt={name}

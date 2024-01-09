@@ -7,7 +7,7 @@ import TestimonyCard from './TestimonyCards/TestimonyCard';
 
 export default function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h2>Me contacter</h2>
 
             <div className="contact__picture">
