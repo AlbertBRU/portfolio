@@ -41,13 +41,19 @@
     }
 
     &__image {
-        position: relative;
+        display: flex;
+        justify-content: center; /* Centrer horizontalement */
+        align-items: center; /* Centrer verticalement */
         img {
             width: 100%;
             max-width: 600px;
             border: 4px solid rgb(165, 165, 165);
             border-top: 20px solid rgb(165, 165, 165);
             border-radius: 10px;
+        }
+        
+        &-container {
+            position: relative;
         }
 
         &__circle-red, &__circle-yellow, &__circle-green {
