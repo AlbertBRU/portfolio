@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Menu from '../Menu';
+import Header from '../Header';
 
 import './style.scss';
 import './scroll.scss';
@@ -17,25 +17,7 @@ export default function Home() {
         const ageInYears = Math.floor(differenceInMilliseconds / (365.25 * 24 * 60 * 60 * 1000));
 
         setAge(ageInYears);
-    }, []);
-
-    useEffect(() => {
-        const header = document.querySelector('.header__menu');
-        const homeContent = document.querySelector('.home__content');
-
-        const ditanceBtwnTopAndElmt = header.offsetTop;
-        const headerHeight = header.offsetHeight;
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY >= ditanceBtwnTopAndElmt) {
-                header.classList.add('header__menu-fixed');
-                homeContent.style.marginTop = headerHeight + 20 + 'px';
-            } else {
-                header.classList.remove('header__menu-fixed');
-                homeContent.style.marginTop = 0;
-            }
-        });
-    }, []);
+    }, [])
 
     return (
         <div className="home" id="home">
@@ -49,7 +31,12 @@ export default function Home() {
                     </div>
                 </div>
             </div>            
-            {<Menu />}
+            <div className="header__menu">
+                <a className="invisible" href="#home">Home</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#contact">Contact</a>
+            </div>
             <div className='home__content max-width'>
                 <p>
                     Développeur web junior de {age} ans, j'ai entrepris une aventure passionnante dans le monde du développement web il y a deux ans. À l'origine, j'ai arpenté les méandres du marketing digital, cherchant constamment des moyens créatifs pour raconter des histoires et créer des connexions en ligne.
