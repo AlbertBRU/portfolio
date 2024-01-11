@@ -1,5 +1,6 @@
 import ContactCard from './ContactCards/ContactCard';
 import { Carousel } from 'react-responsive-carousel';
+import PhotoAlbert from '/src/assets/images/photo-profil.png';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './style.scss';
@@ -12,7 +13,7 @@ export default function Contact() {
 
             <div className="contact__picture">
                 <img
-                    src="/portfolio/src/assets/images/photo-profil.png"
+                    src={PhotoAlbert}
                     alt="Photo d'Albert"
                     className='contact__picture__image'
                 />
