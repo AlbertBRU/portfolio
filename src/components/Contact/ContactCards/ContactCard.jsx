@@ -22,7 +22,7 @@ export default function ContactCard({
             }}
         >
             <img
-                src={`/src/assets/images/contact/logo-${name}.svg`}
+                src={`/portfolio/src/assets/images/contact/logo-${name}.svg`}
                 alt={name}
                 className='contact__infos__cards__card__image'
             />

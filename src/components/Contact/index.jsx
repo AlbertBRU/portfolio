@@ -12,7 +12,7 @@ export default function Contact() {
 
             <div className="contact__picture">
                 <img
-                    src="/src/assets/images/photo-profil.png"
+                    src="/portfolio/src/assets/images/photo-profil.png"
                     alt="Photo d'Albert"
                     className='contact__picture__image'
                 />
@@ -23,8 +23,8 @@ export default function Contact() {
                 <p className='contact__infos__text'>Vous pouvez me contacter facilement en utilisant une des options ci-dessous :</p>
 
                 <button className="contact__infos__dl-button">
-                    <a href="/src/assets/images/contact/resume.pdf" download="CV-albert-bru">
-                        <img src='/src/assets/images/download-icon.png' />
+                    <a href="/portfolio/src/assets/images/contact/resume.pdf" download="CV-albert-bru">
+                        <img src='/portfolio/src/assets/images/download-icon.png' />
                         Télécharger mon CV au format PDF
                     </a>
                 </button>
