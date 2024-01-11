@@ -8,6 +8,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['/portfolio/src/assets/images/work.svg?react'],
+    },
+  },
   plugins: [
     svgr({ 
       svgrOptions: {
