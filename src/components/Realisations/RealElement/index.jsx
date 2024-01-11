@@ -36,15 +36,17 @@ export default function RealElement({
             </div>
 
             <div className='real-element__image'>
-                <span className='real-element__image__circle-red' />
-                <span className='real-element__image__circle-yellow' />
-                <span className='real-element__image__circle-green' />
-                <img
-                    src={gif && hovered ? gif : image}
-                    alt="realisation"
-                    onMouseEnter={() => setHovered(true)}
-                    onMouseLeave={() => setHovered(false)}
-                />
+                <div className='real-element__image-container'> 
+                    <span className='real-element__image__circle-red' />
+                    <span className='real-element__image__circle-yellow' />
+                    <span className='real-element__image__circle-green' />
+                    <img
+                        src={gif && hovered ? gif : image}
+                        alt="realisation"
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}
+                    />
+                </div>
             </div>
 
 
