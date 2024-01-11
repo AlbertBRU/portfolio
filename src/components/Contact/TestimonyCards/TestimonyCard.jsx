@@ -9,7 +9,7 @@ export default function TestimonyCard({
         <div className='contact__carousel__card'>
         <img
             className="contact__carousel__card__image"
-            src={`/portfolio/src/assets/images/contact/carousel/${name.toLowerCase()}.png`}
+            src={`/portfolio/images/contact/carousel/${name.toLowerCase()}.png`}
         />
         <div className="contact__carousel__card__container">
             <div className="contact__carousel__card__container__name">{name}</div>
