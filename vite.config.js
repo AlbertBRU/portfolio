@@ -7,7 +7,10 @@ export default defineConfig({
   base: "/portfolio/",
   build: {
     rollupOptions: {
-      external: ['/portfolio/src/assets/images/work.svg?react'],
+      external: [
+        '/portfolio/src/assets/images/work.svg?react',
+        '/portfolio/src/assets/images/school.svg?react',
+      ],
     },
   },
   plugins: [
