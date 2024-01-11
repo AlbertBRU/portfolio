@@ -24,7 +24,7 @@ export default function Contact() {
 
                 <button className="contact__infos__dl-button">
                     <a href="/portfolio/images/contact/resume.pdf" download="CV-albert-bru">
-                        <img src='/portfolio/images/download-icon.png' />
+                        <img src='/portfolio/images/contact/download-icon.png' />
                         Télécharger mon CV au format PDF
                     </a>
                 </button>
