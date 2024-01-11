@@ -9,6 +9,11 @@ export default defineConfig({
     svgr({ 
       svgrOptions: {
         // svgr options
+        plugins: [
+          '@svgr/plugin-svgo',
+          '@svgr/plugin-jsx',
+          '@svgr/plugin-prettier'
+        ],
       },
     }),
     react({
