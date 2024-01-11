@@ -1,6 +1,5 @@
 import ContactCard from './ContactCards/ContactCard';
 import { Carousel } from 'react-responsive-carousel';
-import PhotoAlbert from '/src/assets/images/photo-profil.png';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './style.scss';
@@ -13,7 +12,7 @@ export default function Contact() {
 
             <div className="contact__picture">
                 <img
-                    src={PhotoAlbert}
+                    src="/portfolio/images/contact/carousel/albert.png"
                     alt="Photo d'Albert"
                     className='contact__picture__image'
                 />
@@ -24,7 +23,7 @@ export default function Contact() {
                 <p className='contact__infos__text'>Vous pouvez me contacter facilement en utilisant une des options ci-dessous :</p>
 
                 <button className="contact__infos__dl-button">
-                    <a href="/portfolio/src/assets/images/contact/resume.pdf" download="CV-albert-bru">
+                    <a href="/portfolio/images/contact/resume.pdf" download="CV-albert-bru">
                         <img src='/portfolio/images/download-icon.png' />
                         Télécharger mon CV au format PDF
                     </a>
