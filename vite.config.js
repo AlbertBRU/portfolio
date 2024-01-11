@@ -5,14 +5,6 @@ import svgr from 'vite-plugin-svgr'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/portfolio/",
-  build: {
-    rollupOptions: {
-      external: [
-        '/portfolio/src/assets/images/work.svg?react',
-        '/portfolio/src/assets/images/school.svg?react',
-      ],
-    },
-  },
   plugins: [
     svgr({ 
       svgrOptions: {

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import WorkIcon from '/portfolio/src/assets/images/work.svg?react';
-import SchoolIcon from '/portfolio/src/assets/images/school.svg?react';
-import DoneIcon from '/portfolio/src/assets/images/done.svg?react';
+import WorkIcon from '/src/assets/images/work.svg?react';
+import SchoolIcon from '/src/assets/images/school.svg?react';
+import DoneIcon from '/src/assets/images/done.svg?react';
 
 import resume from '/src/assets/data/resume.json';
 
