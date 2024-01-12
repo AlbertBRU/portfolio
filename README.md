@@ -24,9 +24,7 @@ Contact : Informations pour me contacter.
 
 - **React** - Bibliothèque JavaScript pour la création d'interfaces utilisateur.
 - **Vite** - Outil de build rapide pour les applications web modernes.
-(À venir)
-- **React Router** - Bibliothèque de routage pour React.
-- **Firebase** - Plateforme de développement d'applications mobiles et web (pour l'exploitation d'une REST API).
+- **Github Pages** - Service Github d'hébergement gratuit de projets.
 
 ## Fonctionnalités
 
@@ -34,8 +32,6 @@ Contact : Informations pour me contacter.
 - Intégration d'un CV au format JSON.
 - Conception responsive pour une utilisation sur mobile, tablette et ordinateur (en cours).
 - Intégration de Vite pour des temps de chargement rapides et une performance optimale.
-- Intégration de React Router pour une navigation plus fluide entre les différentes sections (à venir).
-- Intégration de Firebase pour l'exploitation d'une REST API (à venir).
 - Plein de trucs cool en CSS sont à venir !
 
 ## Installation

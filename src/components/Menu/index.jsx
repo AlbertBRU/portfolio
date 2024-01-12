@@ -5,8 +5,14 @@ export default function Menu() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
+    const toggleMenu = (event) => {
+        // Permet de toggle le menu si on clique sur un lien du menu ou du burger uniquement si on est sur le menu fixed et non sur la page d'accueil
+        if (
+            event.target.classList.contains('menu-open') 
+            || event.target.classList.contains('header__menu-burger')
+            || event.target.classList.contains('header__menu-burger-line')) {
+            setIsMenuOpen(!isMenuOpen);
+        }
     }
 
     const menuClass = isMenuOpen ? 'menu-open' : '';
