@@ -5,38 +5,46 @@
     width: 100%;
 
     .card__linkedin {
-        background-color: rgb(14, 65, 106);
+        background-color: rgb(33, 150, 243);
         transition: background-color 0.3s ease-in-out;
+
         &:hover {
-            transition: background-color 0.3s ease-in-out;
-            background-color: rgb(33, 150, 243);
+            .contact__infos__cards__card__button-text {
+                color: rgb(33, 150, 243);
+            }
         }
     }
 
     .card__email {
-        background-color: rgb(151, 91, 0);
+        background-color: rgb(255, 152, 0);
         transition: background-color 0.3s ease-in-out;
+
         &:hover {
-            background-color: rgb(255, 152, 0);
-            transition: background-color 0.3s ease-in-out;
+            .contact__infos__cards__card__button-text {
+                color: rgb(255, 152, 0);
+            }
         }
     }
 
     .card__github {
-        background-color: rgb(129, 17, 54);
+        background-color: rgb(233, 30, 99);
         transition: background-color 0.3s ease-in-out;
+
         &:hover {
-            transition: background-color 0.3s ease-in-out;
-            background-color: rgb(233, 30, 99);
+            .contact__infos__cards__card__button-text {
+                color: rgb(233, 30, 99);
+            }
         }
     }
 
     .card__phone {
+        background-color: rgb(65, 150, 68);
         transition: background-color 0.3s ease-in-out;
-        background-color: rgb(31, 72, 32);
+
         &:hover {
-            transition: background-color 0.3s ease-in-out;
-            background-color: rgb(65, 150, 68);
+            .contact__infos__cards__card__button-text {
+                color: rgb(65, 150, 68);
+            }
         }
     }
 
@@ -54,8 +62,15 @@
 
         &:hover {
             cursor: pointer;
-            box-shadow: inset 0 0 1rem #000000;
-            transition: box-shadow 0.3s ease-in-out;
+
+            .contact__infos__cards__card__image {
+                transform: scale(1.1);
+                transition: all 0.3s ease-in-out;
+            }
+            .contact__infos__cards__card__button-text {
+                background-color: white;
+                transition: all 0.3s ease-in-out;
+            }
         }
 
         p {
@@ -83,6 +98,7 @@
             width: 50vw;
         }
     }
+
     @media (max-width: 700px) {
         .contact__infos__cards__card {
             width: 100vw;

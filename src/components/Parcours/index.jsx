@@ -74,10 +74,6 @@ export default function Parcours() {
                         <p>{education.institution}</p>
                     </VerticalTimelineElement>
                 ))}
-                <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                    icon={<DoneIcon />}
-                />
             </VerticalTimeline>
         </div >
     );
