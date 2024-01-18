@@ -1,31 +1,36 @@
-.contact {
-    .contact__carousel {
-        &__card {
+.contact__carousel {
+    .slide {
+        .contact__carousel__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
             img {
                 border-radius: 50%;
                 width: 100px;
+                height: 100px;
                 margin-bottom: -2rem;
                 border: 5px solid #42647e;
                 position: relative;
                 z-index: 1;
 
                 &::before {
-                    content: "👍";
                     position: absolute;
                     width: 100%;
                 }
             }
 
             &__container {
-                height: 100%;
                 padding: 3rem 10%;
                 background-color: white;
                 border: #5f5e5e 1px solid;
                 border-radius: 1rem;
-                margin: 0 3rem;
+                margin: auto 3rem;
+                
                 display: flex;
                 flex-direction: column;
-                min-height: 23rem;
+                height: 100%;
+
 
                 &__name {
                     font-weight: bold;
@@ -36,24 +41,37 @@
                     font-style: italic;
                     color: #5f5e5e;
                 }
+
                 &__text {
                     margin: auto 0;
                     position: relative;
-                    &::before,&::after {
+                    &::before,
+                    &::after {
                         position: absolute;
                         font-size: 3rem;
                         color: #42647e;
                         height: 40px;
                     }
+
                     &::before {
                         content: open-quote;
                         top: -2rem;
                         left: -2rem;
                     }
+
                     &::after {
                         content: close-quote;
                         bottom: -2rem;
                         right: -2rem;
+                    }
+                }
+
+                &__source {
+                    font-size: small;
+                    font-style: italic;
+                    color: #5f5e5e;
+                    &::before {
+                        content: "- ";
                     }
                 }
             }

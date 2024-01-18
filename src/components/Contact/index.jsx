@@ -65,7 +65,7 @@ export default function Contact() {
                 showThumbs={false}
                 showStatus={false}
                 autoPlay={true}
-                interval={6600}
+                interval={66000}
             >
 
                 {testimonies.testimonies.map((testimony, index) => (
@@ -74,6 +74,7 @@ export default function Contact() {
                         name={testimony.name}
                         position={testimony.position}
                         testimony={testimony.testimony}
+                        source={testimony.source}
                     />
                 ))}
 

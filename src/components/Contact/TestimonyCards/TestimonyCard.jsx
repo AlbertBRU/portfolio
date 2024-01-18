@@ -4,6 +4,7 @@ export default function TestimonyCard({
     name,
     position,
     testimony,
+    source,
 }) {
     return (
         <div className='contact__carousel__card'>
@@ -17,6 +18,7 @@ export default function TestimonyCard({
             <div className="contact__carousel__card__container__text">
                 <p>{testimony}</p>
             </div>
+            <div className="contact__carousel__card__container__source">{source}</div>
         </div>
     </div>
     )
