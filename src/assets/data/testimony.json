@@ -1,0 +1,28 @@
+{
+    "testimonies": [
+        {
+            "name": "Louise",
+            "position" : "Cheffe de projet / Data Analyst chez O'clock",
+            "testimony": "J'ai eu l'opportunité de travailler avec Albert lors de son alternance en tant que Concepteur Développeur d'Applications au sein de l'École O'clock. C'était un vrai plaisir d'avoir une personne aussi impliquée et dynamique sur le projet, qui a toujours su être force de proposition quand je manquais d'idées et pédagogue lorsque je voulais mieux comprendre certains concepts techniques. Albert a fait preuve d'une excellente compréhension des enjeux et des exigences du projet et a su y répondre avec professionnalisme et créativité. Je recommande chaleureusement ce profil et serais enchantée de collaborer à nouveau avec lui.",
+            "source": "Recommandation LinkedIn"
+        },
+        {
+            "name": "Eric",
+            "position" : "Développeur Senior chez O'clock",
+            "testimony": "C'est avec plaisir que je recommande Albert en tant que développeur web. J'ai eu le privilège de travailler avec lui pendant son contrat d'alternance chez O'clock. Albert excelle dans la résolution créative de problèmes complexes. Sa responsabilité, sa capacité à travailler en autonomie, et sa collaboration efficace avec l'équipe ont été des atouts majeurs. Sa personnalité positive et adaptable a contribué à maintenir un environnement de travail dynamique. Je suis convaincu qu'Albert continuera d'exceller dans sa carrière. Sa créativité, son professionnalisme et son enthousiasme en font un atout inestimable pour toute équipe. N'hésitez pas à le contacter pour toute opportunité professionnelle. Albert apportera une valeur ajoutée certaine à votre organisation !",
+            "source": "Recommandation LinkedIn"
+        },
+        {
+            "name": "Sébastien",
+            "position" : "Lead Developer chez O'clock",
+            "testimony": "Je suis ravi d'avoir eu l'opportunité de travailler aux côtés d'Albert en tant que Lead Developer. Albert s'est révélé être un professionnel exceptionnel, démontrant une compétence technique impressionnante et une volonté inébranlable de réussir. Pendant notre collaboration, j'ai été témoin de la progression spectaculaire d'Albert en un temps relativement court. Sa capacité à assimiler de nouvelles informations rapidement et à appliquer ces connaissances de manière pratique a été tout simplement remarquable. Son engagement envers l'excellence et sa détermination à relever des défis complexes ont été des atouts précieux pour notre équipe. Albert excelle non seulement en tant que développeur compétent, mais aussi en tant que collègue collaboratif. Sa communication claire, son esprit d'équipe et son attitude positive ont grandement contribué à l'ambiance productive au sein de notre équipe. Je recommande vivement Albert à toute entreprise cherchant un professionnel dévoué, capable de s'adapter rapidement et de fournir des résultats exceptionnels. C'est un plaisir de travailler avec lui, et je suis convaincu qu'il continuera à exceller dans tous les défis qu'il entreprendra à l'avenir.",
+            "source": "Recommandation LinkedIn"
+        },
+        {
+            "name": "Albert",
+            "position" : "Moi-même",
+            "testimony": "C'est un bon gars, hyper motivé, qui adore apprendre de nouvelles choses. Toujours de bonne humeur, il se donne a fond dans les taches qu'il accomplit, et prends très à coeur la réussite de ses projets. Albert met un accent prononcé sur la qualité du code qu'il délivre. Il sait s'adapter aux différents challengses, environnements de travail et technologies qui s'offrent à lui. Et bonne nouvelle, il est à l'écoute de nouvelles opportunités ! Je vous ai dit que c'était un bon gars ?",
+            "source": "C'est moi !"
+        }
+    ]
+}

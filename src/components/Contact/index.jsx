@@ -1,9 +1,11 @@
-import ContactCard from './ContactCards/ContactCard';
 import { Carousel } from 'react-responsive-carousel';
+
+import testimonies from '/src/assets/data/testimony.json';
+import ContactCard from './ContactCards/ContactCard';
+import TestimonyCard from './TestimonyCards/TestimonyCard';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './style.scss';
-import TestimonyCard from './TestimonyCards/TestimonyCard';
 
 export default function Contact() {
     return (
@@ -66,7 +68,16 @@ export default function Contact() {
                 interval={6600}
             >
 
-                <TestimonyCard
+                {testimonies.testimonies.map((testimony, index) => (
+                    <TestimonyCard
+                        key={index}
+                        name={testimony.name}
+                        position={testimony.position}
+                        testimony={testimony.testimony}
+                    />
+                ))}
+
+                {/* <TestimonyCard
                     name="Louise"
                     position="Ancienne collègue"
                     testimony="J'ai eu l'opportunité de travailler avec Albert lors de son alternance en tant que Concepteur Développeur d'Applications au sein de l'École O'clock.
@@ -78,7 +89,7 @@ export default function Contact() {
                     name="Albert"
                     position="Moi-même"
                     testimony="Ce gars la, c'est un type bien. Il est sympa, il est drôle, il est beau, il est intelligent, il est modeste, il est humble, il est gentil, il est généreux, il est altruiste, il est serviable, il est courageux, il est chez lui, et il cherche du taff."
-                />
+                /> */}
             </Carousel>
         </div>
     );
